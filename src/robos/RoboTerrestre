@@ -1,0 +1,17 @@
+package robos;
+
+public class RoboTerrestre extends Robo {
+    private double capacidadeCarga;
+
+    public RoboTerrestre(int id, String nome) {
+        super(id, nome);
+        this.capacidadeCarga = 1500.0;
+    }
+
+
+
+    @Override
+    public void executarMissao() {
+        //Lógica de executar missao aqui.
+    }
+}
